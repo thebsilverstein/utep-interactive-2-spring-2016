@@ -1,5 +1,5 @@
-<h1>Links</h1>
+# Links
 
-<h2>CodePen Collection</h2>
+## CodePen Collection
 
 http://codepen.io/collection/XJYKpp/
