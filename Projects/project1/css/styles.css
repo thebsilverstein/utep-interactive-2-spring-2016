@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;	
+}
+
+#header {
+	background: red;	
+	text-align: center;
+}
+
+#content {
+	background: green;
+	width: 70%;
+	float: left;
+}
+
+#content img {
+	width: 100%;
+	height: auto;	
+}
+
+#sidebar {
+	background: orange;
+	width: 30%;
+	float: left;
+	padding: 15px;
+}
+
+#footer {
+	background: blue;
+	clear: both;
+}
