@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+	
+	h2 {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.column {
+		height: 200px;	
+	}
+	
+	.red {
+		background: red;	
+	}
+	
+	.blue {
+		background: blue;	
+	}
+	
+	.green {
+		background: green;	
+	}
+	
+	.yellow {
+		background: yellow;	
+	}
+	
+	@media (min-width: 600px) {
+		.column {
+			float: left;
+			width: 50%;	
+		}
+	}
+	
+	@media (min-width: 1000px) {
+		.column {
+			float: left;
+			width: 25%;
+			background: gray;
+		}
+	}
+
+</style>
+</head>
+
+<body>
+	<div class="column red">
+    	<h2>Column 1</h2>
+    </div>
+    <div class="column blue">
+    	<h2>Column 2</h2>
+    </div>
+    <div class="column green">
+    	<h2>Column 3</h2>
+    </div>
+    <div class="column yellow">
+    	<h2>Column 4</h2>
+    </div>
+</body>
+</html>
