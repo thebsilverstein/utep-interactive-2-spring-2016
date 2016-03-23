@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #fff;	
+}
+
+.image img {
+	width: 100%;
+	height: auto;	
+}
+
+.header {
+	background: red;	
+}
+
+.footer {
+	background: blue;	
+}
