@@ -7,6 +7,9 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+
 <link href="css/styles.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -44,15 +47,15 @@
                     <!-- Product Start -->
                 	<div class="col-xs-12 col-sm-6 product">
                     	<div class="image">
-                        	<img src="http://placehold.it/800x600" alt="Placeholder Image">
+                        	<a class="fancybox" rel="group" href="img/elpaso.jpg"><img src="http://placehold.it/800x600" alt="Placeholder Image"></a>
                         </div>
                     </div>
                     <!-- Product End -->
                     
                     <!-- Product Start -->
                 	<div class="col-xs-12 col-sm-6 product">
-                    	<div class="image">
-                        	<img src="http://placehold.it/800x600" alt="Placeholder Image">
+                        <div class="image">
+                            <a class="fancybox" rel="group" href="img/elpaso.jpg"><img src="http://placehold.it/800x600" alt="Placeholder Image"></a>
                         </div>
                     </div>
                     <!-- Product End -->
@@ -80,6 +83,13 @@
 
     
     <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
 
 </body>
 </html>
