@@ -23,6 +23,10 @@ body {
 	color: white;
 }
 
+.product {
+	margin-bottom: 20px;	
+}
+
 .footer {
 	background: cyan;	
 }
