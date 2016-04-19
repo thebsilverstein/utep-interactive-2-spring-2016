@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@media (min-width: 768px) {
+	.add-margin {
+		margin-bottom: 20px;
+	}
+}
+
